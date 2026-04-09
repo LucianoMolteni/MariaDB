@@ -8,7 +8,7 @@
         },
         "ghcr.io/devcontainers-contrib/features/mariadb-apt-get:1": {}
     },
-    "postCreateCommand": "sudo service mariadb start",
+    "postCreateCommand": "sudo /etc/init.d/mariadb start",
     "customizations": {
         "vscode": {
             "extensions": [
